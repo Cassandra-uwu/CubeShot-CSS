@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Square&display=swap');
+* {font-family: 'Nova Square', cursive !important}
+@-webkit-keyframes blink-1{0%,50%,100%{opacity:1}25%,75%{opacity:0}}@keyframes blink-1{0%,50%,100%{opacity:1}25%,75%{opacity:0}}
+
+.indicator.svelte-ilri4k.svelte-ilri4k{
+        background: #0000;
+        height:0%!important;
+        width:0px;
+        border-radius: 0px;
+        border-color:#0000;
+    outline:none
+}
+player-health.svelte-ilri4k.svelte-ilri4k{
+    background:#f000;
+    border-radius: 1px;
+    left:10px!important;
+    outline:none;
+    padding:0px;
+}
+player-ammo.svelte-1quzmtf{
+    background:#0000;
+    border-radius: 1px;
+    right:10px!important;
+    padding:0px 0px;
+    font-size: 50px;
+    margin:10px;
+}
+img.svelte-1quzmtf{
+    display:none;
+}
+#crosshair{
+    position:absolute;
+    display:block;
+    left:950px;
+    top:530px;
+}
+.clip.svelte-1quzmtf{
+    font-size: 30px;
+}
+.value.svelte-ilri4k.svelte-ilri4k{
+    left:24%;
+}
+strong.svelte-10o8s4f {
+    font-size: 3vw;
+    font-weight: 700;
+    color: #f0f
+}
+reward-entry.svelte-10o8s4f {
+    color: #ffbbfd;
+}
+game-time.svelte-sswfbw {
+    position: absolute;
+    top: 0;
+    left: 0;
+    gap: .6vw;
+    font-size: 30px;
+    padding: .5vw 1vw;
+    border-radius: 2px;
+    color: #fff;
+    background: #0000;
+    letter-spacing: .1vw;
+    margin: 1vw;
+    display: flex;
+}
+player-kills.svelte-czp1mf img.svelte-czp1mf{
+    display:none;
+}
+player-kills.svelte-czp1mf.svelte-czp1mf{
+    background:#0000;
+    font-size:30px!important;
+}
+player-kills.svelte-czp1mf.svelte-czp1mf::before{
+    content: "Kills: "
+}
+player-weapon[data-active=true].svelte-1sk37b4.svelte-1sk37b4 {
+    opacity: 1;
+    transform: scale(1);
+    -webkit-filter: drop-shadow(3px 3px 0px #f0f)!important;
+}
+menu-interface.svelte-1n8q673{
+    background-color:#0000009c;
+}
+game-stats.svelte-1rhpu7j{
+    font-size:10px;
+    background:#0000;
+}
+img.game-stats.svelte-1n8q673{
+    display:none;
+}
+img.game-stats.svelte-1rhpu7j{
+    display:none;
+}
+damage-value.svelte-17f7cut {
+    background:pink!important;
+}
+.signal.svelte-1rhpu7j {
+    display:none;
+}
