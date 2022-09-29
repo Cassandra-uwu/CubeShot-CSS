@@ -25,14 +25,33 @@ player-ammo.svelte-1quzmtf{
     font-size: 50px;
     margin:10px;
 }
+.guideHolder.svelte-1x37ypf.svelte-1x37ypf{
+    display:none;
+}
 img.svelte-1quzmtf{
     display:none;
+}
+menu-options.svelte-1x37ypf.svelte-1x37ypf {
+    display: flex;
+    gap: 3vw;
+    padding-bottom: 0;
+    color: #fff;
+    justify-content: center;
+    font-family: Motion Control;
+    background: rgba(0,0,0,.2705882353);
+    padding: 1vw 3vw;
+    border-radius: 3.5px;
+    height: 5vw;
+}
+menu-entry.svelte-1x37ypf.svelte-1x37ypf {
+    bottom:-11vh;
+    width:100%;
 }
 #crosshair{
     position:absolute;
     display:block;
-    left:950px;
-    top:530px;
+    left: calc(50% - 10px);
+    top: calc(50% - 10px);
 }
 .clip.svelte-1quzmtf{
     font-size: 30px;
@@ -61,6 +80,9 @@ game-time.svelte-sswfbw {
     letter-spacing: .1vw;
     margin: 1vw;
     display: flex;
+}
+i.svelte-sswfbw{
+    display:none!important;
 }
 player-kills.svelte-czp1mf img.svelte-czp1mf{
     display:none;
