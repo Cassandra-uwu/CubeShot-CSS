@@ -25,13 +25,16 @@ player-ammo.svelte-1quzmtf{
     font-size: 50px;
     margin:10px;
 }
-.guideHolder.svelte-1x37ypf.svelte-1x37ypf{
+.guideHolder.svelte-1hkvi8c.svelte-1hkvi8c{
     display:none;
 }
 img.svelte-1quzmtf{
     display:none;
 }
-menu-options.svelte-1x37ypf.svelte-1x37ypf {
+.menu-left-adholder.svelte-1hkvi8c.svelte-1hkvi8c, .menu-bottom-adholder.svelte-1hkvi8c.svelte-1hkvi8c{
+    display:none;
+}
+menu-options.svelte-1hkvi8c.svelte-1hkvi8c {
     display: flex;
     gap: 3vw;
     padding-bottom: 0;
@@ -43,7 +46,7 @@ menu-options.svelte-1x37ypf.svelte-1x37ypf {
     border-radius: 3.5px;
     height: 5vw;
 }
-menu-entry.svelte-1x37ypf.svelte-1x37ypf {
+menu-entry.svelte-1hkvi8c.svelte-1hkvi8c {
     bottom:-11vh;
     width:100%;
 }
