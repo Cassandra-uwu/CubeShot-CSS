@@ -25,16 +25,16 @@ player-ammo.svelte-1quzmtf{
     font-size: 50px;
     margin:10px;
 }
-.guideHolder.svelte-1hkvi8c.svelte-1hkvi8c{
+guide-holder.svelte-mc5s5j.svelte-mc5s5j{
     display:none;
 }
 img.svelte-1quzmtf{
     display:none;
 }
-.menu-left-adholder.svelte-1hkvi8c.svelte-1hkvi8c, .menu-bottom-adholder.svelte-1hkvi8c.svelte-1hkvi8c{
+.menu-bottom-adholder.svelte-mc5s5j.svelte-mc5s5j, .menu-left-adholder.svelte-mc5s5j.svelte-mc5s5j, .streamOverlay.svelte-mc5s5j.svelte-mc5s5j, streams-holder.svelte-mc5s5j.svelte-mc5s5j{
     display:none;
 }
-menu-options.svelte-1hkvi8c.svelte-1hkvi8c {
+menu-options.svelte-mc5s5j.svelte-mc5s5j {
     display: flex;
     gap: 3vw;
     padding-bottom: 0;
@@ -46,7 +46,7 @@ menu-options.svelte-1hkvi8c.svelte-1hkvi8c {
     border-radius: 3.5px;
     height: 5vw;
 }
-menu-entry.svelte-1hkvi8c.svelte-1hkvi8c {
+menu-entry.svelte-mc5s5j.svelte-mc5s5j {
     bottom:-11vh;
     width:100%;
 }
